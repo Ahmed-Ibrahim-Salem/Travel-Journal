@@ -14,9 +14,9 @@ export default function App() {
   });
 
   return (
-    <div className="app">
+    <div>
       <Header />
-      <section className="cards-list">{cards}</section>
+      {cards}
     </div>
   );
 }

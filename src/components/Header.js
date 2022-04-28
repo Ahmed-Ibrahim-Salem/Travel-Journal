@@ -3,7 +3,7 @@ export default function Header() {
     return (
         <header className="header">
         <img src={worldIcon} alt="world" />
-        <p>My travel journal.</p>
+        <h4>My travel journal.</h4>
         </header>
     )
 }
